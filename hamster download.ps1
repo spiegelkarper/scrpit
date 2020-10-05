@@ -1,4 +1,5 @@
-﻿$url="http://www.lesgalls.com/pics/bustybritain/gal8mq4j/"
+﻿#TEST Download
+$url="http://www.lesgalls.com/pics/bustybritain/gal8mq4j/"
 $x=wget -Uri $url
 $links=$x.Links|where href -like pic*.jpg|select -ExpandProperty href
 foreach ($l in $links)
